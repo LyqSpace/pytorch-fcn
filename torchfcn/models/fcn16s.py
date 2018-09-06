@@ -9,7 +9,7 @@ from .fcn32s import get_upsampling_weight
 class FCN16s(nn.Module):
 
     pretrained_model = \
-        osp.expanduser('~/data/models/pytorch/fcn16s_from_caffe.pth')
+        osp.expanduser('../../models/pytorch/fcn16s_from_caffe.pth')
 
     @classmethod
     def download(cls):

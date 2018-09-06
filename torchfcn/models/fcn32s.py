@@ -26,7 +26,7 @@ def get_upsampling_weight(in_channels, out_channels, kernel_size):
 class FCN32s(nn.Module):
 
     pretrained_model = \
-        osp.expanduser('~/data/models/pytorch/fcn32s_from_caffe.pth')
+        osp.expanduser('../../models/pytorch/fcn32s_from_caffe.pth')
 
     @classmethod
     def download(cls):
