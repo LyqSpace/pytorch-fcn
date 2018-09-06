@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=~/data/datasets/VOC
+DIR=../../datasets/VOC
 
 mkdir -p $DIR
 cd $DIR
